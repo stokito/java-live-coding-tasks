@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class ArrayListTest {
 
-    private AList<String> list = new AList<>();
+    private AList list = new AList();
 
     @Test
     public void testListInit() {
@@ -18,7 +18,7 @@ public class ArrayListTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testInvalidCapacity() {
-        list = new AList<>(-1);
+        list = new AList(-1);
     }
 
     @Test

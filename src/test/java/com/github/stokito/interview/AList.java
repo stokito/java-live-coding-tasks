@@ -1,6 +1,6 @@
 package com.github.stokito.interview;
 
-public class AList<E>  {
+public class AList  {
     public AList() {
 
     }
@@ -17,19 +17,19 @@ public class AList<E>  {
         return -1;
     }
 
-    public void add(int index, E e) {
+    public void add(int index, String e) {
 
     }
 
-    public E get(int index) {
+    public String get(int index) {
         return null;
     }
 
-    public void set(int index, E e) {
+    public void set(int index, String e) {
 
     }
 
-    public E remove(int index) {
+    public String remove(int index) {
         return null;
     }
 }
