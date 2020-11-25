@@ -17,6 +17,10 @@ public class AList  {
         return -1;
     }
 
+    public void add(String e) {
+
+    }
+
     public void add(int index, String e) {
 
     }

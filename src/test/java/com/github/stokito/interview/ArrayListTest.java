@@ -22,7 +22,18 @@ public class ArrayListTest {
     }
 
     @Test
-    public void testAddElements() {
+    public void testAppend() {
+        list.add("Karol");
+        list.add("Vanessa");
+        list.add("Amanda");
+
+        assertEquals("Karol", list.get(0));
+        assertEquals("Vanessa", list.get(1));
+        assertEquals("Amanda", list.get(2));
+    }
+
+    @Test
+    public void testAddByIndex() {
         list.add(0, "Karol");
         list.add(1, "Vanessa");
         list.add(2, "Amanda");
