@@ -1,4 +1,4 @@
-# Java Live Coding Tasks
+# Java Live Coding Task
 
 AList class is similar to a ArrayList from Java and works the same.
 Currently the class is not implemented but you have a unit test for it.
